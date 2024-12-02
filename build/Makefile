@@ -177,6 +177,30 @@ GGM/Utils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/GGM/Utils.c.s
 .PHONY : GGM/Utils.c.s
 
+Punc_PRF.o: Punc_PRF.cpp.o
+.PHONY : Punc_PRF.o
+
+# target to build an object file
+Punc_PRF.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Punc_PRF.cpp.o
+.PHONY : Punc_PRF.cpp.o
+
+Punc_PRF.i: Punc_PRF.cpp.i
+.PHONY : Punc_PRF.i
+
+# target to preprocess a source file
+Punc_PRF.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Punc_PRF.cpp.i
+.PHONY : Punc_PRF.cpp.i
+
+Punc_PRF.s: Punc_PRF.cpp.s
+.PHONY : Punc_PRF.s
+
+# target to generate assembly for a file
+Punc_PRF.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Punc_PRF.cpp.s
+.PHONY : Punc_PRF.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... GGM/Utils.o"
 	@echo "... GGM/Utils.i"
 	@echo "... GGM/Utils.s"
+	@echo "... Punc_PRF.o"
+	@echo "... Punc_PRF.i"
+	@echo "... Punc_PRF.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
