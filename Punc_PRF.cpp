@@ -46,13 +46,13 @@ void PuncPRF::Punc(vector<long> delete_pos){
 void PuncPRF::PPRF_compute_all_keys() {
     PuncPRF::keys.clear();
     int level = tree->get_level();
-    for(GGMNode node : PuncPRF::node_list) {
+    for(GGMNode node : PuncPRF::remain_node) {
         for (int i = 0; i < pow(2, level - node.level); ++i) {
             int offset = ((node.index) << (level - node.level)) + i;
             uint8_t derive_key[AES_BLOCK_SIZE];
             memcpy(derive_key, node.key, AES_BLOCK_SIZE);
             // for(int i=0;i<16;i++){
-            //     printf ( "%02x ",derive_key[i]);
+            //     printf ( "%02x ",node.key[i]);
             // }
             GGMTree::derive_key_from_tree(derive_key, offset, level - node.level, 0);
             if(PuncPRF::keys.find(offset) == PuncPRF::keys.end()) {
