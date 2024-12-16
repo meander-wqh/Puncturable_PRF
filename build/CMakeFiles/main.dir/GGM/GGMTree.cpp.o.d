@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/GGM/GGMTree.cpp.o: \
- /home/node10/yangxu/Puncturable_PRF/GGM/GGMTree.cpp \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/GGMTree.cpp \
  /usr/include/stdc-predef.h \
- /home/node10/yangxu/Puncturable_PRF/GGM/GGMTree.h \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/GGMTree.h \
  /usr/include/c++/8/bitset /usr/include/c++/8/string \
  /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
@@ -130,8 +130,8 @@ CMakeFiles/main.dir/GGM/GGMTree.cpp.o: \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/node10/yangxu/Puncturable_PRF/GGM/GGMNode.h \
- /home/node10/yangxu/Puncturable_PRF/GGM/Utils.h \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/GGMNode.h \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/Utils.h \
  /home/node10/anaconda3/include/openssl/evp.h \
  /home/node10/anaconda3/include/openssl/opensslconf.h \
  /home/node10/anaconda3/include/openssl/opensslv.h \

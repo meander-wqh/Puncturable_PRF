@@ -12,7 +12,7 @@
 
 #define AES_BLOCK_SIZE 16
 #define DIGEST_SIZE 32
-#define GGM_SIZE 8 //2^3
+#define GGM_SIZE (1UL << 25) //2^26 //所有的x的集合大小
 #define HASH_SIZE 3
 
 unsigned int key_derivation(unsigned char *plaintext, int plaintext_len,

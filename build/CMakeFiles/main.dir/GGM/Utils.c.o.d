@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/GGM/Utils.c.o: \
- /home/node10/yangxu/Puncturable_PRF/GGM/Utils.c \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/Utils.c \
  /home/node10/anaconda3/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/node10/yangxu/Puncturable_PRF/GGM/Utils.h \
+ /home/node10/yangxu/TDSC23-VCQ/Puncturable_PRF/GGM/Utils.h \
  /home/node10/anaconda3/include/openssl/evp.h \
  /home/node10/anaconda3/include/openssl/opensslconf.h \
  /home/node10/anaconda3/include/openssl/opensslv.h \

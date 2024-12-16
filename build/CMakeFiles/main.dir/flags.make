@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/node10/anaconda3/include -g
+C_FLAGS = -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/node10/anaconda3/include
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = -isystem /home/node10/anaconda3/include
 
-CXX_FLAGS = -g -std=gnu++14
+CXX_FLAGS = -std=gnu++14
 
